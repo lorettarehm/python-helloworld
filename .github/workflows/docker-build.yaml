@@ -42,6 +42,6 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          platforms: linux/amd64
+          platforms: linux/amd64,linux/arm64
           push: true
-          tags: pixelpotato/python-helloworld:latest
+          tags: devlokmilo/python-helloworld:latest
